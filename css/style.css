@@ -1,0 +1,288 @@
+@CHARSET "UTF-8";
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+}
+	div.title {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	div.small {
+		font-size: 10px;
+	}
+	div.linkContainer {
+		padding: 0px 0px 5px 0px;
+		font-size: 12px;
+	}
+	div.hide {
+		display: none;
+	}
+	div.menu {
+		width: 1000px;
+	}
+	div.left {
+		text-align: left;
+		float: left;
+	}
+	div.right {
+		text-align: right;
+		float: right;
+	}
+	div.content {
+		width: 1000px;
+	}
+	div.mainContent {
+		float: left;
+		width: 800px;
+	}
+	div.rightContent {
+		margin: 0 0 0 15px;
+		float: left;
+		width: 185px;
+	}
+	.commentBox {
+		width: 180px;
+	}
+	div.comment {
+		text-align: left;
+		padding: 0px 0px 3px 2px;
+	}
+	div.commentFooter {
+		text-align: right;
+		font-size: 8px;
+		color: white;
+		background-color: #4459E3;
+		padding: 0px 2px 0px 0px;
+	}
+	table.comments  {
+		border:1px outset black;
+		border-collapse:collapse;
+		border-spacing:2px;
+	}
+	table.comments td {
+		-moz-border-radius:0 0 0 0;
+		background-color:white;
+		/*border:1px inset black;*/
+	}
+	table.chart {
+		/*display: none; */
+		width: 710px;
+	}
+	table.chartLine {
+		width: 710px;
+		display: none;
+	}
+	h3.accordion a.accordion {
+		background: #C2BABB;
+	}
+	div.accordion {
+		width: 500px;
+	}
+	div.accordionTitle {
+		font-weight: bold;
+		padding: 0px;
+	}
+	div.accordionContent{ 
+		padding: 0px 0px 10px 50px;
+		font-size: 10px;
+	}
+	div.scores {
+		border: 1px solid;
+		padding: 10px 0px 20px 10px;
+		margin: 5px;
+		display: table;
+	}
+	div.picksContainer {
+		padding: 10px 0px 20px 10px;
+		border: 1px solid;
+		width: 790px;
+		margin: 5px;
+	}
+	div.bonusContainer {
+		padding: 10px 0px 20px 10px;
+		border: 1px solid;
+		width: 790px;
+		margin: 5px;
+	}
+	label.block {
+		display:block;
+		float:left;
+		margin-right:0;
+		padding:5px 0 3px;
+		width:150px;
+	}
+	tr.currentUser td {
+		background-color: #9999CC;
+		color: black;
+	}
+	.locked
+	{
+		font-weight:bold;
+	}
+	.center {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.green {
+		color: green;
+	}
+	.red {
+		color: red;
+	}
+	.team {
+		font-size: 10px;
+	}
+	.nopick
+	{
+		color: red;
+	}
+	.chosen
+	{
+		font-weight: bold;
+		font-size: 16px;
+		color: #3DAD46;
+	}
+	#game_picks
+	{
+	        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	        font-size: 12px;
+	        margin: 0px 0px 0px 0px;
+	        text-align: left;
+	        border-collapse: collapse;
+	        width: 100%;
+	}
+	#bonus
+	{
+	        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	        font-size: 12px;
+	        margin: 0px 0px 0px 0px;
+	        width: 800px;
+	        text-align: left;
+	        border-collapse: collapse;
+	}
+	#bonus th
+	{
+	        font-size: 14px;
+	        font-weight: normal;
+	        padding: 5px 8px;
+	        color: #039;
+	}
+	#bonus td
+	{
+	        padding: 1px;
+	        width: 150px;
+	}
+	#bonus .odd
+	{
+	        background: #e8edff;
+	}
+/* table with alternating rows */
+	#hor-zebra
+	{
+	        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	        font-size: 12px;
+	        margin: 0px 0px 0px 0px;
+	        width: 780px;
+	        text-align: left;
+	        border-collapse: collapse;
+	}
+	#hor-zebra th {
+		background-color:black;
+		color:white;
+		font-size:14px;
+		font-weight:normal;
+		padding:5px 8px;
+		text-align:center;
+	}
+	#hor-zebra td
+	{
+	        padding: 1px;
+	        text-align: center;
+	}
+	#hor-zebra .odd
+	{
+	        background: #e8edff;
+	}
+/* login page */
+	fieldset {
+		border:1px dashed #CCCCCC;
+		margin-bottom:20px;
+		margin-top:20px;
+		padding:10px;
+	}
+	legend {
+		background:none repeat scroll 0 0 #666666;
+		border:1px solid #333333;
+		color:#FFFFFF;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:90%;
+		font-weight:bold;
+		letter-spacing:-1px;
+		line-height:1.1;
+		padding:2px 6px;
+	}
+	.form {
+		margin:0;
+		padding:0;
+	}
+	label.login {
+		background-color:#CCCCCC;
+		color:#666666;
+		display:block;
+		float:left;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:115%;
+		font-weight:normal;
+		height:32px;
+		letter-spacing:-1px;
+		line-height:1.1;
+		margin-right:2px;
+		margin-top:3px;
+		padding-left:6px;
+		padding-top:11px;
+		width:140px;
+	}
+	.div_texbox {
+		background-color:#E6E6E6;
+		float:right;
+		height:35px;
+		margin-top:3px;
+		padding-bottom:3px;
+		padding-left:5px;
+		padding-top:5px;
+		width:347px;
+	}
+	.button_div {
+		background-color:#FFFFFF;
+		border:1px solid #CCCCCC;
+		float:right;
+		height:35px;
+		margin-top:3px;
+		padding:5px 32px 3px;
+		text-align:right;
+		width:287px;
+	}
+	.clear {
+		clear:both;
+	}
+	#leftSide {
+		float:left;
+		padding-top:30px;
+		width:530px;
+	}
+/* message boxes */
+	.message{
+		border:solid 1px #DEDEDE;
+		background:#EFEFEF;
+		color:#222222;
+		padding:4px;
+		text-align:center;
+	}
+	.error {
+		border:solid 1px #E82C42;
+		background:#EBB5BB;
+		color:#E82C42;
+		padding:4px;
+		text-align:center;
+	}
+	
